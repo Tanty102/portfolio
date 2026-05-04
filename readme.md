@@ -20,6 +20,20 @@ _Coming soon_
 - 📬 **Contact form** — With real-time validation
 - 🥚 **Easter eggs** — Konami code, rainbow mode
 
+## 📸 Screenshots
+<div align="center">
+  <img src="assets/images/a1.png" width="48%" alt="Trang chủ (Hero Section)" />
+</div>
+<div align="center">
+  <img src="assets/images/a2.png" width="48%" alt="Phần Giới thiệu & Thống kê" />
+</div>
+<div align="center">
+  <img src="assets/images/a3.png" width="48%" alt="Giao diện Dự án" />
+</div>
+<div align="center">
+  <img src="assets/images/a4.png" width="48%" alt="Giao diện Mobile / Form liên hệ" />
+</div>
+
 ## 🛠️ Tech Stack
 
 | Category | Technologies |
