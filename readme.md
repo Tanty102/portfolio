@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-_Coming soon_
+https://tanty102.github.io/portfolio/
 
 ## ✨ Features
 
@@ -22,16 +22,16 @@ _Coming soon_
 
 ## 📸 Screenshots
 <div align="center">
-  <img src="assets/images/a1.png" width="48%" alt="Trang chủ (Hero Section)" />
+  <img src="assets/images/a1.png" width="100%" alt="Trang chủ (Hero Section)" />
 </div>
 <div align="center">
-  <img src="assets/images/a2.png" width="48%" alt="Phần Giới thiệu & Thống kê" />
+  <img src="assets/images/a2.png" width="100%" alt="Phần Giới thiệu & Thống kê" />
 </div>
 <div align="center">
-  <img src="assets/images/a3.png" width="48%" alt="Giao diện Dự án" />
+  <img src="assets/images/a3.png" width="100%" alt="Giao diện Dự án" />
 </div>
 <div align="center">
-  <img src="assets/images/a4.png" width="48%" alt="Giao diện Mobile / Form liên hệ" />
+  <img src="assets/images/a4.png" width="100%" alt="Giao diện Mobile / Form liên hệ" />
 </div>
 
 ## 🛠️ Tech Stack
