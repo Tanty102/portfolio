@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "title": {
+            "vi": "Ứng dụng Quản lý & Đặt phòng Khách sạn",
+            "en": "Hotel Management & Booking App",
+            "ja": "ホテル管理・予約アプリ"
+        },
+        "description": {
+            "vi": "Ứng dụng di động quản lý và đặt phòng khách sạn. Khách hàng và nhân viên có thể truy cập hệ thống thông qua ứng dụng Android và iOS được xây dựng bằng React Native.",
+            "en": "Mobile application for hotel management and booking system. Customers and employees can access the system through Android and iOS apps built with React Native.",
+            "ja": "ホテル管理・予約システム用モバイルアプリケーション。React Nativeで構築されたAndroid・iOSアプリを通じて、顧客と従業員がシステムにアクセスできます。"
+        },
+        "shortDesc": {
+            "vi": "Ứng dụng đặt phòng khách sạn cho Android & iOS",
+            "en": "Hotel booking mobile app for Android & iOS",
+            "ja": "Android・iOS向けホテル予約モバイルアプリ"
+        },
+        "tech": ["React Native", "JavaScript", "VSCode"],
+        "category": ["react-native", "mobile"],
+        "image": "assets/images/projects/ecommerce.png",
+        "images": ["assets/images/projects/ecommerce.png"],
+        "demo": "#",
+        "github": "#",
+        "featured": true,
+        "color": "#00f5ff"
+    },
+    {
+        "id": 2,
+        "title": {
+            "vi": "Nền tảng ExcelWeb",
+            "en": "ExcelWeb Platform",
+            "ja": "ExcelWebプラットフォーム"
+        },
+        "description": {
+            "vi": "Ứng dụng web full-stack xây dựng bằng PHP Laravel. Xử lý các chức năng cốt lõi và tính năng hệ thống cho dự án ExcelWeb với đội ngũ 5 lập trình viên.",
+            "en": "Full-stack web application built with PHP Laravel. Handling core features and system functionalities for the ExcelWeb project with a team of 5 developers.",
+            "ja": "PHP Laravelで構築されたフルスタックWebアプリケーション。5名の開発チームでExcelWebプロジェクトのコア機能とシステム機能を担当。"
+        },
+        "shortDesc": {
+            "vi": "Ứng dụng web full-stack Laravel",
+            "en": "Full-stack Laravel web application",
+            "ja": "フルスタックLaravel Webアプリケーション"
+        },
+        "tech": ["PHP", "Laravel", "MySQL", "JavaScript"],
+        "category": ["php", "laravel"],
+        "image": "assets/images/projects/healthcare.png",
+        "images": ["assets/images/projects/healthcare.png"],
+        "demo": "#",
+        "github": "#",
+        "featured": true,
+        "color": "#b836ff"
+    },
+    {
+        "id": 3,
+        "title": {
+            "vi": "Hệ thống Ripiage",
+            "en": "Ripiage System",
+            "ja": "Ripiageシステム"
+        },
+        "description": {
+            "vi": "Phát triển full-stack cho dự án Ripiage sử dụng framework PHP Laravel. Triển khai các tính năng end-to-end với đội ngũ 4 thành viên.",
+            "en": "Full-stack development for Ripiage project using PHP Laravel framework. Implementing end-to-end features with a team of 4 members.",
+            "ja": "PHP Laravelフレームワークを使用したRipiageプロジェクトのフルスタック開発。4名のチームでエンドツーエンドの機能を実装。"
+        },
+        "shortDesc": {
+            "vi": "Hệ thống web full-stack Laravel",
+            "en": "Laravel-based full-stack web system",
+            "ja": "Laravel基盤のフルスタックWebシステム"
+        },
+        "tech": ["PHP", "Laravel", "MySQL", "JavaScript"],
+        "category": ["php", "laravel"],
+        "image": "assets/images/projects/chat.png",
+        "images": ["assets/images/projects/chat.png"],
+        "demo": "#",
+        "github": "#",
+        "featured": true,
+        "color": "#ff2d95"
+    },
+    {
+        "id": 4,
+        "title": {
+            "vi": "Betech Web - Quản lý Nhân sự",
+            "en": "Betech Web - HR Management",
+            "ja": "Betech Web - 人事管理システム"
+        },
+        "description": {
+            "vi": "Hệ thống quản lý nhân sự doanh nghiệp xây dựng bằng framework PHP Yii2. Phát triển full-stack xử lý quản lý nhân sự, chấm công và báo cáo.",
+            "en": "Enterprise HR management system built with PHP Yii2 framework. Full-stack development handling personnel management, attendance tracking, and reporting.",
+            "ja": "PHP Yii2フレームワークで構築された企業人事管理システム。人事管理、勤怠管理、レポート機能のフルスタック開発。"
+        },
+        "shortDesc": {
+            "vi": "Hệ thống quản lý nhân sự doanh nghiệp Yii2",
+            "en": "Enterprise HR management system with Yii2",
+            "ja": "Yii2による企業人事管理システム"
+        },
+        "tech": ["PHP", "Yii2", "MySQL", "JavaScript"],
+        "category": ["php", "yii2"],
+        "image": "assets/images/projects/ai-content.png",
+        "images": ["assets/images/projects/ai-content.png"],
+        "demo": "#",
+        "github": "#",
+        "featured": false,
+        "color": "#4361ee"
+    },
+    {
+        "id": 5,
+        "title": {
+            "vi": "ERP Dịch vụ Nha khoa v2",
+            "en": "Dental Service ERP v2",
+            "ja": "歯科サービスERP v2"
+        },
+        "description": {
+            "vi": "Hệ thống ERP quản lý doanh nghiệp dịch vụ nha khoa. Phát triển back-end sử dụng PHP Yii2 với đội ngũ 8 thành viên, xử lý API và logic nghiệp vụ.",
+            "en": "Enterprise resource planning system for dental service businesses. Back-end development using PHP Yii2 with a team of 8 members, handling APIs and business logic.",
+            "ja": "歯科サービス企業向けERPシステム。8名のチームでPHP Yii2を使用したバックエンド開発、APIとビジネスロジックを担当。"
+        },
+        "shortDesc": {
+            "vi": "Hệ thống ERP nha khoa doanh nghiệp",
+            "en": "Dental enterprise ERP system backend",
+            "ja": "歯科企業ERPシステムバックエンド"
+        },
+        "tech": ["PHP", "Yii2", "MySQL", "REST API"],
+        "category": ["php", "yii2"],
+        "image": "assets/images/projects/portfolio-dash.png",
+        "images": ["assets/images/projects/portfolio-dash.png"],
+        "demo": "#",
+        "github": "#",
+        "featured": false,
+        "color": "#39ff14"
+    },
+    {
+        "id": 6,
+        "title": {
+            "vi": "Ứng dụng Di động Nha khoa Việt Mỹ",
+            "en": "Viet My Dental Mobile App",
+            "ja": "Viet My歯科モバイルアプリ"
+        },
+        "description": {
+            "vi": "Ứng dụng di động Android và iOS cho hệ thống ERP nha khoa. Khách hàng và nhân viên có thể tương tác với ERP thông qua giao diện mobile hiện đại được xây dựng bằng React Native.",
+            "en": "Android and iOS mobile application for dental ERP system access. Customers and employees can interact with the ERP through a modern mobile interface built with React Native.",
+            "ja": "歯科ERPシステムアクセス用Android・iOSモバイルアプリケーション。React Nativeで構築されたモダンなモバイルインターフェースを通じて、顧客と従業員がERPと連携できます。"
+        },
+        "shortDesc": {
+            "vi": "Ứng dụng mobile truy cập ERP nha khoa",
+            "en": "Mobile app for dental ERP access",
+            "ja": "歯科ERPアクセス用モバイルアプリ"
+        },
+        "tech": ["React Native", "JavaScript", "REST API"],
+        "category": ["react-native", "mobile"],
+        "image": "assets/images/projects/task-api.png",
+        "images": ["assets/images/projects/task-api.png"],
+        "demo": "#",
+        "github": "#",
+        "featured": false,
+        "color": "#00f5ff"
+    }
+]

@@ -1,0 +1,88 @@
+{
+    "nav": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu",
+        "skills": "Kỹ năng",
+        "projects": "Dự án",
+        "experience": "Kinh nghiệm",
+        "education": "Học vấn",
+        "contact": "Liên hệ"
+    },
+    "hero": {
+        "greeting": "Xin chào, tôi là",
+        "name": "Tấn Tỵ",
+        "description": "Kỹ sư phần mềm chuyên xây dựng hệ thống web & ứng dụng mobile chất lượng cao",
+        "cta": "Khám Phá",
+        "contact": "Liên Hệ Ngay",
+        "scroll": "Cuộn xuống"
+    },
+    "about": {
+        "title": "<span class='section__title-accent'>01.</span> Về Tôi",
+        "name_label": "Tên",
+        "name": "Nguyễn Tấn Tỵ",
+        "location_label": "Vị trí",
+        "location": "Việt Nam",
+        "experience_label": "Kinh nghiệm",
+        "experience_value": "2+ Năm",
+        "status_label": "Trạng thái",
+        "status": "Đang làm việc",
+        "bio": "Tôi là <span class='text-accent'>Kỹ sư Phần mềm Full-Stack</span> với chuyên môn xây dựng hệ thống web doanh nghiệp và ứng dụng mobile. Tốt nghiệp ngành Kỹ thuật Phần mềm tại <span class='text-accent'>Đại học Nam Cần Thơ (DNC)</span>. Tôi đam mê thiết kế, phát triển và triển khai các giải pháp phần mềm, tối ưu hiệu năng và trải nghiệm người dùng."
+    },
+    "stats": {
+        "title": "<span class='section__title-accent'>02.</span> Thành Tựu",
+        "projects": "Dự án hoàn thành",
+        "experience": "Năm kinh nghiệm",
+        "lines": "Dòng code",
+        "technologies": "Công nghệ sử dụng"
+    },
+    "skills": {
+        "title": "<span class='section__title-accent'>03.</span> Kỹ Năng & Công Nghệ",
+        "all": "Tất cả",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Công cụ"
+    },
+    "projects": {
+        "title": "<span class='section__title-accent'>04.</span> Dự Án Nổi Bật",
+        "all": "Tất cả",
+        "viewDetail": "Xem Chi Tiết"
+    },
+    "experience": {
+        "title": "<span class='section__title-accent'>05.</span> Kinh Nghiệm"
+    },
+    "education": {
+        "title": "<span class='section__title-accent'>06.</span> Học Vấn",
+        "degree": "Cử nhân",
+        "school": "Đại học Nam Cần Thơ (DNC)",
+        "major": "Kỹ thuật Phần mềm",
+        "year": "2019 — 2023",
+        "location": "Cần Thơ, Việt Nam",
+        "highlights_title": "Nổi bật",
+        "h1": "Phát triển web full-stack với PHP & Laravel",
+        "h2": "Thiết kế & quản lý cơ sở dữ liệu (MySQL, SQL Server)",
+        "h3": "Nguyên lý kỹ thuật phần mềm & OOP",
+        "h4": "Phát triển ứng dụng di động"
+    },
+    "contact": {
+        "title": "<span class='section__title-accent'>07.</span> Liên Hệ",
+        "name": "Họ tên",
+        "email": "Email",
+        "message": "Lời nhắn",
+        "send": "Gửi Tin Nhắn",
+        "name_error": "Vui lòng nhập họ tên",
+        "email_error": "Vui lòng nhập email hợp lệ",
+        "message_error": "Vui lòng nhập lời nhắn",
+        "location": "Việt Nam"
+    },
+    "footer": {
+        "name": "Tấn Tỵ",
+        "tagline": "Xây dựng tương lai, từng dòng code.",
+        "rights": "Bảo lưu mọi quyền."
+    },
+    "typing": ["Full-Stack Developer", "Web Developer", "Mobile Developer", "Kỹ sư Phần mềm"],
+    "github": {
+        "title": "GitHub",
+        "contributions": "Đóng góp",
+        "viewProfile": "Xem hồ sơ"
+    }
+}

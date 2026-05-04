@@ -1,0 +1,15 @@
+[
+    { "name": "PHP", "icon": "🐘", "level": 90, "category": "backend" },
+    { "name": "Laravel", "icon": "🔺", "level": 88, "category": "backend" },
+    { "name": "Yii2", "icon": "⚙️", "level": 85, "category": "backend" },
+    { "name": "JavaScript", "icon": "⚡", "level": 80, "category": "frontend" },
+    { "name": "HTML5", "icon": "🌐", "level": 90, "category": "frontend" },
+    { "name": "CSS3", "icon": "🎨", "level": 85, "category": "frontend" },
+    { "name": "Bootstrap 5", "icon": "🅱️", "level": 82, "category": "frontend" },
+    { "name": "React Native", "icon": "⚛️", "level": 75, "category": "frontend" },
+    { "name": "MySQL", "icon": "🗃️", "level": 85, "category": "backend" },
+    { "name": "SQL Server", "icon": "🗄️", "level": 78, "category": "backend" },
+    { "name": "Git", "icon": "🔀", "level": 80, "category": "tools" },
+    { "name": "VSCode", "icon": "📝", "level": 88, "category": "tools" },
+    { "name": "Herd", "icon": "🦌", "level": 82, "category": "tools" }
+]

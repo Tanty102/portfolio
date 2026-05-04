@@ -1,0 +1,23 @@
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Agent files
+.agents/
+
+# Design docs (internal)
+docs/plans/
+
+# Personal reference files
+refer.md
+Kỹ năng - Skill.xlsx
+
+# Node modules
+node_modules/

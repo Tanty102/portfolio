@@ -1,0 +1,88 @@
+{
+    "nav": {
+        "home": "ホーム",
+        "about": "自己紹介",
+        "skills": "スキル",
+        "projects": "プロジェクト",
+        "experience": "経験",
+        "education": "学歴",
+        "contact": "お問い合わせ"
+    },
+    "hero": {
+        "greeting": "こんにちは、私は",
+        "name": "ティ",
+        "description": "高品質なWebシステムとモバイルアプリを構築するソフトウェアエンジニア",
+        "cta": "作品を見る",
+        "contact": "お問い合わせ",
+        "scroll": "スクロール"
+    },
+    "about": {
+        "title": "<span class='section__title-accent'>01.</span> 自己紹介",
+        "name_label": "氏名",
+        "name": "グエン・タン・ティ",
+        "location_label": "所在地",
+        "location": "ベトナム",
+        "experience_label": "経験",
+        "experience_value": "2年以上",
+        "status_label": "状態",
+        "status": "在職中",
+        "bio": "企業向けWebシステムとモバイルアプリの開発を専門とする<span class='text-accent'>フルスタックソフトウェアエンジニア</span>です。<span class='text-accent'>ナムカントー大学（DNC）</span>でソフトウェアエンジニアリングを専攻し卒業。ソフトウェアソリューションの設計・開発・展開、パフォーマンスとユーザー体験の最適化に情熱を注いでいます。"
+    },
+    "stats": {
+        "title": "<span class='section__title-accent'>02.</span> 実績",
+        "projects": "完了プロジェクト",
+        "experience": "年以上の経験",
+        "lines": "コード行数",
+        "technologies": "使用技術"
+    },
+    "skills": {
+        "title": "<span class='section__title-accent'>03.</span> スキル＆技術",
+        "all": "すべて",
+        "frontend": "フロントエンド",
+        "backend": "バックエンド",
+        "tools": "ツール"
+    },
+    "projects": {
+        "title": "<span class='section__title-accent'>04.</span> 主要プロジェクト",
+        "all": "すべて",
+        "viewDetail": "詳細を見る"
+    },
+    "experience": {
+        "title": "<span class='section__title-accent'>05.</span> 職務経歴"
+    },
+    "education": {
+        "title": "<span class='section__title-accent'>06.</span> 学歴",
+        "degree": "学士号",
+        "school": "ナムカントー大学（DNC）",
+        "major": "ソフトウェアエンジニアリング",
+        "year": "2019年 — 2023年",
+        "location": "カントー、ベトナム",
+        "highlights_title": "ハイライト",
+        "h1": "PHP & Laravelによるフルスタックウェブ開発",
+        "h2": "データベース設計・管理（MySQL、SQL Server）",
+        "h3": "ソフトウェアエンジニアリング原則とOOP",
+        "h4": "モバイルアプリケーション開発"
+    },
+    "contact": {
+        "title": "<span class='section__title-accent'>07.</span> お問い合わせ",
+        "name": "お名前",
+        "email": "メールアドレス",
+        "message": "メッセージ",
+        "send": "送信する",
+        "name_error": "お名前を入力してください",
+        "email_error": "有効なメールアドレスを入力してください",
+        "message_error": "メッセージを入力してください",
+        "location": "ベトナム"
+    },
+    "footer": {
+        "name": "ティ",
+        "tagline": "未来を創る、一行ずつ。",
+        "rights": "全著作権所有。"
+    },
+    "typing": ["フルスタック開発者", "ウェブ開発者", "モバイル開発者", "ソフトウェアエンジニア"],
+    "github": {
+        "title": "GitHub アクティビティ",
+        "contributions": "コントリビューション",
+        "viewProfile": "プロフィールを見る"
+    }
+}

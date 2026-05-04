@@ -1,0 +1,182 @@
+[
+    {
+        "role": {
+            "vi": "Lập trình viên Mobile",
+            "en": "Mobile App Developer",
+            "ja": "モバイルアプリ開発者"
+        },
+        "company": "Betech Co., Ltd",
+        "date": {
+            "vi": "2025/12 — Hiện tại",
+            "en": "2025/12 — Present",
+            "ja": "2025年12月 — 現在"
+        },
+        "description": {
+            "vi": [
+                "Xây dựng ứng dụng mobile quản lý & đặt phòng khách sạn",
+                "Phát triển ứng dụng Android & iOS bằng React Native",
+                "Đội ngũ 7 thành viên — Phụ trách phát triển Front-end"
+            ],
+            "en": [
+                "Building hotel management & booking mobile application",
+                "Developing Android & iOS apps with React Native",
+                "Team of 7 members — Responsible for Front-end development"
+            ],
+            "ja": [
+                "ホテル管理・予約モバイルアプリケーションの構築",
+                "React NativeでAndroid・iOSアプリを開発",
+                "7名のチーム — フロントエンド開発を担当"
+            ]
+        }
+    },
+    {
+        "role": {
+            "vi": "Lập trình viên PHP (ExcelWeb)",
+            "en": "PHP Developer (ExcelWeb)",
+            "ja": "PHP開発者（ExcelWeb）"
+        },
+        "company": "Betech Co., Ltd",
+        "date": {
+            "vi": "2025/07 — 2025/12",
+            "en": "2025/07 — 2025/12",
+            "ja": "2025年07月 — 2025年12月"
+        },
+        "description": {
+            "vi": [
+                "Phát triển full-stack cho dự án ExcelWeb bằng PHP Laravel",
+                "Triển khai các chức năng cốt lõi và tính năng hệ thống",
+                "Đội ngũ 5 thành viên — Vai trò full-stack"
+            ],
+            "en": [
+                "Full-stack development for ExcelWeb project using PHP Laravel",
+                "Implementing core features and system functionalities",
+                "Team of 5 members — Full stack role"
+            ],
+            "ja": [
+                "PHP Laravelを使用したExcelWebプロジェクトのフルスタック開発",
+                "コア機能とシステム機能の実装",
+                "5名のチーム — フルスタック担当"
+            ]
+        }
+    },
+    {
+        "role": {
+            "vi": "Lập trình viên PHP (Ripiage)",
+            "en": "PHP Developer (Ripiage)",
+            "ja": "PHP開発者（Ripiage）"
+        },
+        "company": "Betech Co., Ltd",
+        "date": {
+            "vi": "2024/08 — 2025/06",
+            "en": "2024/08 — 2025/06",
+            "ja": "2024年08月 — 2025年06月"
+        },
+        "description": {
+            "vi": [
+                "Phát triển full-stack cho dự án Ripiage bằng PHP Laravel",
+                "Coding và triển khai các tính năng dự án end-to-end",
+                "Đội ngũ 4 thành viên — Vai trò full-stack"
+            ],
+            "en": [
+                "Full-stack development for Ripiage project using PHP Laravel",
+                "Coding and implementing project features end-to-end",
+                "Team of 4 members — Full stack role"
+            ],
+            "ja": [
+                "PHP Laravelを使用したRipiageプロジェクトのフルスタック開発",
+                "プロジェクト機能のエンドツーエンド実装",
+                "4名のチーム — フルスタック担当"
+            ]
+        }
+    },
+    {
+        "role": {
+            "vi": "Lập trình viên PHP (Betech Web)",
+            "en": "PHP Developer (Betech Web)",
+            "ja": "PHP開発者（Betech Web）"
+        },
+        "company": "Betech Co., Ltd",
+        "date": {
+            "vi": "2023/11 — 2024/07",
+            "en": "2023/11 — 2024/07",
+            "ja": "2023年11月 — 2024年07月"
+        },
+        "description": {
+            "vi": [
+                "Phát triển full-stack hệ thống quản lý nhân sự bằng PHP Yii2",
+                "Xây dựng và bảo trì ứng dụng web doanh nghiệp nội bộ",
+                "Đội ngũ 6 thành viên — Vai trò full-stack"
+            ],
+            "en": [
+                "Full-stack development for HR management system using PHP Yii2",
+                "Building and maintaining internal enterprise web application",
+                "Team of 6 members — Full stack role"
+            ],
+            "ja": [
+                "PHP Yii2を使用した人事管理システムのフルスタック開発",
+                "社内企業Webアプリケーションの構築・保守",
+                "6名のチーム — フルスタック担当"
+            ]
+        }
+    },
+    {
+        "role": {
+            "vi": "Lập trình viên PHP (ERP Nha khoa v2)",
+            "en": "PHP Developer (Dental ERP v2)",
+            "ja": "PHP開発者（歯科ERP v2）"
+        },
+        "company": "Freelancer",
+        "date": {
+            "vi": "2024/01 — 2025/12",
+            "en": "2024/01 — 2025/12",
+            "ja": "2024年01月 — 2025年12月"
+        },
+        "description": {
+            "vi": [
+                "Phát triển back-end cho hệ thống ERP dịch vụ nha khoa v2",
+                "Xây dựng API và logic nghiệp vụ mạnh mẽ bằng PHP Yii2",
+                "Đội ngũ 8 thành viên — Vai trò back-end"
+            ],
+            "en": [
+                "Back-end development for dental service enterprise ERP system v2",
+                "Building robust APIs and business logic using PHP Yii2",
+                "Team of 8 members — Back-end role"
+            ],
+            "ja": [
+                "歯科サービス企業ERPシステムv2のバックエンド開発",
+                "PHP Yii2を使用した堅牢なAPIとビジネスロジックの構築",
+                "8名のチーム — バックエンド担当"
+            ]
+        }
+    },
+    {
+        "role": {
+            "vi": "Lập trình viên Mobile (Nha khoa Việt Mỹ)",
+            "en": "Mobile App Developer (Viet My Dental)",
+            "ja": "モバイルアプリ開発者（Viet My歯科）"
+        },
+        "company": "Freelancer",
+        "date": {
+            "vi": "2025/01 — 2025/12",
+            "en": "2025/01 — 2025/12",
+            "ja": "2025年01月 — 2025年12月"
+        },
+        "description": {
+            "vi": [
+                "Phát triển ứng dụng mobile Android & iOS cho hệ thống ERP nha khoa",
+                "Xây dựng ứng dụng mobile full-stack bằng React Native",
+                "Đội ngũ 8 thành viên — Vai trò full-stack"
+            ],
+            "en": [
+                "Developing Android & iOS mobile app for dental ERP system access",
+                "Building full-stack mobile application with React Native",
+                "Team of 8 members — Full stack role"
+            ],
+            "ja": [
+                "歯科ERPシステムアクセス用Android・iOSモバイルアプリの開発",
+                "React Nativeによるフルスタックモバイルアプリケーションの構築",
+                "8名のチーム — フルスタック担当"
+            ]
+        }
+    }
+]

@@ -1,0 +1,88 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "experience": "Experience",
+        "education": "Education",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hello, I'm",
+        "name": "Snake",
+        "description": "Software Engineer building high-quality web systems & mobile applications",
+        "cta": "Explore My Work",
+        "contact": "Get In Touch",
+        "scroll": "Scroll Down"
+    },
+    "about": {
+        "title": "<span class='section__title-accent'>01.</span> About Me",
+        "name_label": "Name",
+        "name": "Snake",
+        "location_label": "Location",
+        "location": "Vietnam",
+        "experience_label": "Experience",
+        "experience_value": "2+ Years",
+        "status_label": "Status",
+        "status": "Currently Employed",
+        "bio": "I'm a <span class='text-accent'>Full-Stack Software Engineer</span> specializing in building enterprise web systems and mobile applications. Graduated in Software Engineering from <span class='text-accent'>Nam Can Tho University (DNC)</span>. I'm passionate about designing, developing and deploying software solutions, optimizing performance and user experience."
+    },
+    "stats": {
+        "title": "<span class='section__title-accent'>02.</span> Achievements",
+        "projects": "Projects Completed",
+        "experience": "Years Experience",
+        "lines": "Lines of Code",
+        "technologies": "Technologies"
+    },
+    "skills": {
+        "title": "<span class='section__title-accent'>03.</span> Skills & Technologies",
+        "all": "All",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Tools"
+    },
+    "projects": {
+        "title": "<span class='section__title-accent'>04.</span> Featured Projects",
+        "all": "All",
+        "viewDetail": "View Detail"
+    },
+    "experience": {
+        "title": "<span class='section__title-accent'>05.</span> Experience"
+    },
+    "education": {
+        "title": "<span class='section__title-accent'>06.</span> Education",
+        "degree": "Bachelor's Degree",
+        "school": "Nam Can Tho University (DNC)",
+        "major": "Software Engineering",
+        "year": "2019 — 2023",
+        "location": "Can Tho, Vietnam",
+        "highlights_title": "Highlights",
+        "h1": "Full-stack web development with PHP & Laravel",
+        "h2": "Database design & management (MySQL, SQL Server)",
+        "h3": "Software engineering principles & OOP",
+        "h4": "Mobile application development"
+    },
+    "contact": {
+        "title": "<span class='section__title-accent'>07.</span> Get In Touch",
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Your Message",
+        "send": "Send Message",
+        "name_error": "Please enter your name",
+        "email_error": "Please enter a valid email",
+        "message_error": "Please enter a message",
+        "location": "Vietnam"
+    },
+    "footer": {
+        "name": "Snake",
+        "tagline": "Building the future, one line at a time.",
+        "rights": "All rights reserved."
+    },
+    "typing": ["Full-Stack Developer", "Web Developer", "Mobile Developer", "Software Engineer"],
+    "github": {
+        "title": "GitHub Activity",
+        "contributions": "Contributions",
+        "viewProfile": "View Profile"
+    }
+}

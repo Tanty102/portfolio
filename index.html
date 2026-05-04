@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nguyễn Tấn Tỵ — Full-Stack Developer portfolio.">
+    <meta name="keywords" content="portfolio, developer, full-stack, Nguyen Tan Ty, Snake">
+    <meta name="author" content="Nguyễn Tấn Tỵ">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta property="og:title" content="Tấn Tỵ | Full-Stack Developer">
+    <meta property="og:description" content="Kiến tạo trải nghiệm số với công nghệ web hiện đại.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/og-preview.png">
+    <meta property="og:url" content="">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+    <title>Tấn Tỵ | Full-Stack Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar__container">
+            <a href="#hero" class="navbar__logo" id="navLogo">
+                <span class="navbar__logo-icon">✦</span>
+                <span class="navbar__logo-text">Tấn Tỵ</span>
+            </a>
+
+            <ul class="navbar__menu" id="navMenu">
+                <li><a href="#hero" class="navbar__link active" data-i18n="nav.home">Home</a></li>
+                <li><a href="#about" class="navbar__link" data-i18n="nav.about">About</a></li>
+                <li><a href="#skills" class="navbar__link" data-i18n="nav.skills">Skills</a></li>
+                <li><a href="#projects" class="navbar__link" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="#experience" class="navbar__link" data-i18n="nav.experience">Experience</a></li>
+                <li><a href="#education" class="navbar__link" data-i18n="nav.education">Education</a></li>
+                <li><a href="#contact" class="navbar__link" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+
+            <div class="navbar__actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <svg class="theme-icon theme-icon--dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                    <svg class="theme-icon theme-icon--light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none">
+                        <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                    </svg>
+                </button>
+                <div class="lang-dropdown" id="langDropdown">
+                    <button class="lang-toggle" id="langToggle" aria-label="Select language">
+                        <span class="lang-toggle__text">VI</span>
+                        <svg class="lang-toggle__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="lang-dropdown__menu" id="langMenu">
+                        <button class="lang-dropdown__item active" data-lang="vi">🇻🇳 Tiếng Việt</button>
+                        <button class="lang-dropdown__item" data-lang="en">🇺🇸 English</button>
+                        <button class="lang-dropdown__item" data-lang="ja">🇯🇵 日本語</button>
+                    </div>
+                </div>
+                <button class="navbar__hamburger" id="navHamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-menu__list">
+            <li><a href="#hero" class="mobile-menu__link" data-i18n="nav.home">Home</a></li>
+            <li><a href="#about" class="mobile-menu__link" data-i18n="nav.about">About</a></li>
+            <li><a href="#skills" class="mobile-menu__link" data-i18n="nav.skills">Skills</a></li>
+            <li><a href="#projects" class="mobile-menu__link" data-i18n="nav.projects">Projects</a></li>
+            <li><a href="#experience" class="mobile-menu__link" data-i18n="nav.experience">Experience</a></li>
+            <li><a href="#education" class="mobile-menu__link" data-i18n="nav.education">Education</a></li>
+            <li><a href="#contact" class="mobile-menu__link" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- ===== HERO SECTION ===== -->
+        <section class="hero" id="hero">
+            <canvas class="hero__particles" id="particleCanvas"></canvas>
+            <div class="hero__gradient"></div>
+            <div class="hero__glow" id="heroGlow"></div>
+
+            <!-- Parallax Layers -->
+            <div class="hero__parallax" data-speed="0.3">
+                <div class="parallax-shape parallax-shape--1"></div>
+                <div class="parallax-shape parallax-shape--2"></div>
+                <div class="parallax-shape parallax-shape--3"></div>
+            </div>
+            <div class="hero__parallax" data-speed="0.5">
+                <div class="parallax-grid"></div>
+            </div>
+            <div class="hero__parallax" data-speed="0.7">
+                <div class="parallax-orb parallax-orb--1"></div>
+                <div class="parallax-orb parallax-orb--2"></div>
+                <div class="parallax-orb parallax-orb--3"></div>
+            </div>
+
+            <div class="hero__content">
+                <p class="hero__greeting" data-i18n="hero.greeting">Hello, I'm</p>
+                <h1 class="hero__title glitch" data-text="Tấn Tỵ">Tấn Tỵ</h1>
+                <div class="hero__typing">
+                    <span class="hero__typing-prefix">&gt; </span>
+                    <span class="hero__typing-text" id="typingText"></span>
+                    <span class="hero__typing-cursor">|</span>
+                </div>
+                <p class="hero__description" data-i18n="hero.description">Crafting digital experiences with modern web technologies</p>
+                <div class="hero__cta">
+                    <a href="#projects" class="btn btn--primary magnetic" data-i18n="hero.cta">
+                        <span>Explore My Work</span>
+                        <span class="btn__icon">→</span>
+                    </a>
+                    <a href="#contact" class="btn btn--outline magnetic" data-i18n="hero.contact">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero__scroll-indicator" id="scrollIndicator">
+                <div class="hero__scroll-mouse">
+                    <div class="hero__scroll-wheel"></div>
+                </div>
+                <span data-i18n="hero.scroll">Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section class="section about" id="about">
+            <div class="container">
+                <h2 class="section__title" data-i18n="about.title">
+                    <span class="section__title-accent">01.</span> About Me
+                </h2>
+                <div class="about__grid">
+                    <div class="about__avatar-wrapper">
+                        <div class="about__avatar" id="aboutAvatar">
+                            <div class="about__avatar-glow"></div>
+                            <div class="about__avatar-ring"></div>
+                            <div class="about__avatar-img">
+                                <div class="about__avatar-placeholder">
+                                    <span>T</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__content">
+                        <div class="about__cards">
+                            <div class="about__card floating-card" data-delay="0">
+                                <div class="about__card-icon">👤</div>
+                                <div class="about__card-label" data-i18n="about.name_label">Name</div>
+                                <div class="about__card-value" data-i18n="about.name">Nguyễn Tấn Tỵ</div>
+                            </div>
+                            <div class="about__card floating-card" data-delay="0.1">
+                                <div class="about__card-icon">📍</div>
+                                <div class="about__card-label" data-i18n="about.location_label">Location</div>
+                                <div class="about__card-value" data-i18n="about.location">Vietnam</div>
+                            </div>
+                            <div class="about__card floating-card" data-delay="0.2">
+                                <div class="about__card-icon">💼</div>
+                                <div class="about__card-label" data-i18n="about.experience_label">Experience</div>
+                                <div class="about__card-value" data-i18n="about.experience_value">2+ Năm</div>
+                            </div>
+                            <div class="about__card floating-card" data-delay="0.3">
+                                <div class="about__card-icon">🚀</div>
+                                <div class="about__card-label" data-i18n="about.status_label">Status</div>
+                                <div class="about__card-value about__card-value--available" data-i18n="about.status">Đang làm việc</div>
+                            </div>
+                        </div>
+                        <div class="about__bio">
+                            <p data-i18n="about.bio">
+                                I'm a passionate <span class="text-accent">Full-Stack Developer</span> with expertise in building
+                                scalable web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.
+                                My approach combines clean code architecture with stunning user interfaces to deliver exceptional digital experiences.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== STATS SECTION ===== -->
+        <section class="section stats" id="stats">
+            <div class="container">
+                <h2 class="section__title" data-i18n="stats.title">
+                    <span class="section__title-accent">02.</span> Achievements
+                </h2>
+                <div class="stats__grid">
+                    <div class="stats__card">
+                        <div class="stats__card-icon">🚀</div>
+                        <div class="stats__number" data-target="6" data-suffix="+">0</div>
+                        <div class="stats__label" data-i18n="stats.projects">Projects Completed</div>
+                        <div class="stats__card-glow"></div>
+                    </div>
+                    <div class="stats__card">
+                        <div class="stats__card-icon">💼</div>
+                        <div class="stats__number" data-target="2" data-suffix="+">0</div>
+                        <div class="stats__label" data-i18n="stats.experience">Years Experience</div>
+                        <div class="stats__card-glow"></div>
+                    </div>
+                    <div class="stats__card">
+                        <div class="stats__card-icon">💻</div>
+                        <div class="stats__number" data-target="50" data-suffix="K+">0</div>
+                        <div class="stats__label" data-i18n="stats.lines">Lines of Code</div>
+                        <div class="stats__card-glow"></div>
+                    </div>
+                    <div class="stats__card">
+                        <div class="stats__card-icon">🛠️</div>
+                        <div class="stats__number" data-target="13" data-suffix="">0</div>
+                        <div class="stats__label" data-i18n="stats.technologies">Technologies</div>
+                        <div class="stats__card-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section class="section skills" id="skills">
+            <div class="container">
+                <h2 class="section__title" data-i18n="skills.title">
+                    <span class="section__title-accent">03.</span> Skills & Technologies
+                </h2>
+                <div class="skills__filters">
+                    <button class="skills__filter active" data-filter="all" data-i18n="skills.all">All</button>
+                    <button class="skills__filter" data-filter="frontend" data-i18n="skills.frontend">Frontend</button>
+                    <button class="skills__filter" data-filter="backend" data-i18n="skills.backend">Backend</button>
+                    <button class="skills__filter" data-filter="tools" data-i18n="skills.tools">Tools</button>
+                </div>
+                <div class="skills__grid" id="skillsGrid">
+                    <!-- Skills rendered by JS from data/skills.json -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <h2 class="section__title" data-i18n="projects.title">
+                    <span class="section__title-accent">04.</span> Featured Projects
+                </h2>
+                <div class="projects__filters">
+                    <button class="projects__filter active" data-filter="all" data-i18n="projects.all">All</button>
+                    <!-- Filter buttons rendered by JS -->
+                </div>
+                <div class="projects__grid" id="projectsGrid">
+                    <!-- Project cards rendered by JS from data/projects.json -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECT MODAL ===== -->
+        <div class="modal" id="projectModal" aria-hidden="true">
+            <div class="modal__backdrop" id="modalBackdrop"></div>
+            <div class="modal__content">
+                <button class="modal__close" id="modalClose" aria-label="Close modal">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+                <div class="modal__gallery" id="modalGallery">
+                    <div class="modal__gallery-track" id="modalGalleryTrack"></div>
+                    <button class="modal__gallery-btn modal__gallery-btn--prev" id="galleryPrev">‹</button>
+                    <button class="modal__gallery-btn modal__gallery-btn--next" id="galleryNext">›</button>
+                    <div class="modal__gallery-dots" id="galleryDots"></div>
+                </div>
+                <div class="modal__info">
+                    <h3 class="modal__title" id="modalTitle"></h3>
+                    <p class="modal__description" id="modalDescription"></p>
+                    <div class="modal__tech" id="modalTech"></div>
+                    <div class="modal__links" id="modalLinks"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== EXPERIENCE SECTION ===== -->
+        <section class="section experience" id="experience">
+            <div class="container">
+                <h2 class="section__title" data-i18n="experience.title">
+                    <span class="section__title-accent">05.</span> Experience
+                </h2>
+                <div class="timeline" id="timeline">
+                    <div class="timeline__line" id="timelineLine"></div>
+                    <!-- Timeline items rendered by JS from data/experience.json -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EDUCATION SECTION ===== -->
+        <section class="section education" id="education">
+            <div class="container">
+                <h2 class="section__title" data-i18n="education.title">
+                    <span class="section__title-accent">06.</span> Education
+                </h2>
+                <div class="education__grid">
+                    <div class="education__card floating-card">
+                        <div class="education__card-header">
+                            <div class="education__card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                    <path d="M6 12v5c0 1.657 2.686 3 6 3s6-1.343 6-3v-5"/>
+                                </svg>
+                            </div>
+                            <div class="education__card-badge" data-i18n="education.degree">Bachelor's Degree</div>
+                        </div>
+                        <h3 class="education__card-school" data-i18n="education.school">Nam Can Tho University (DNC)</h3>
+                        <p class="education__card-major" data-i18n="education.major">Software Engineering</p>
+                        <div class="education__card-meta">
+                            <span class="education__card-year">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                    <line x1="16" y1="2" x2="16" y2="6"/>
+                                    <line x1="8" y1="2" x2="8" y2="6"/>
+                                    <line x1="3" y1="10" x2="21" y2="10"/>
+                                </svg>
+                                <span data-i18n="education.year">2019 — 2023</span>
+                            </span>
+                            <span class="education__card-location">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span data-i18n="education.location">Can Tho, Vietnam</span>
+                            </span>
+                        </div>
+                        <div class="education__card-highlights">
+                            <h4 data-i18n="education.highlights_title">Highlights</h4>
+                            <ul>
+                                <li data-i18n="education.h1">Full-stack web development with PHP & Laravel</li>
+                                <li data-i18n="education.h2">Database design & management (MySQL, SQL Server)</li>
+                                <li data-i18n="education.h3">Software engineering principles & OOP</li>
+                                <li data-i18n="education.h4">Mobile application development</li>
+                            </ul>
+                        </div>
+                        <div class="education__card-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <h2 class="section__title" data-i18n="contact.title">
+                    <span class="section__title-accent">07.</span> Get In Touch
+                </h2>
+                <div class="contact__grid">
+                    <form class="contact__form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <input type="text" id="contactName" class="form-input" placeholder=" " required>
+                            <label for="contactName" class="form-label" data-i18n="contact.name">Your Name</label>
+                            <div class="form-line"></div>
+                            <span class="form-error" data-i18n="contact.name_error">Please enter your name</span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" class="form-input" placeholder=" " required>
+                            <label for="contactEmail" class="form-label" data-i18n="contact.email">Your Email</label>
+                            <div class="form-line"></div>
+                            <span class="form-error" data-i18n="contact.email_error">Please enter a valid email</span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" class="form-input form-textarea" placeholder=" " required rows="5"></textarea>
+                            <label for="contactMessage" class="form-label" data-i18n="contact.message">Your Message</label>
+                            <div class="form-line"></div>
+                            <span class="form-error" data-i18n="contact.message_error">Please enter a message</span>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--submit magnetic" id="submitBtn">
+                            <span class="btn__text" data-i18n="contact.send">Send Message</span>
+                            <span class="btn__loader">
+                                <svg class="spinner" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="30 70"/></svg>
+                            </span>
+                            <span class="btn__success">✓</span>
+                        </button>
+                    </form>
+                    <div class="contact__info">
+                        <div class="contact__social">
+                            <a href="https://github.com" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            </a>
+                            <a href="mailto:hello@snake.dev" class="social-link" aria-label="Email">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-link" aria-label="Twitter">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </a>
+                        </div>
+                        <div class="contact__map">
+                            <div class="contact__map-placeholder">
+                                <div class="contact__map-pin">📍</div>
+                                <p data-i18n="contact.location">Ho Chi Minh City, Vietnam</p>
+                            </div>
+                        </div>
+                        <div class="contact__github" id="githubWidget">
+                            <h4 class="contact__github-title">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                <span data-i18n="github.title">GitHub Activity</span>
+                            </h4>
+                            <div class="contact__github-graph">
+                                <img src="" alt="GitHub Contributions" loading="lazy" id="githubChart" />
+                                <script>document.getElementById('githubChart').src='https://ghchart.rshah.org/00f5ff/Tanty102?v='+Date.now();</script>
+                            </div>
+                            <a href="https://github.com/Tanty102" target="_blank" rel="noopener" class="contact__github-link">
+                                <span data-i18n="github.viewProfile">View Profile</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="footer">
+        <div class="footer__wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,60 1440,60 L1440,120 L0,120Z" fill="currentColor"/>
+            </svg>
+        </div>
+        <div class="container footer__content">
+            <div class="footer__brand">
+                <span class="footer__logo">✦ Tấn Tỵ</span>
+                <p class="footer__tagline" data-i18n="footer.tagline">Building the future, one line at a time.</p>
+            </div>
+            <div class="footer__links">
+                <a href="#hero" data-i18n="nav.home">Home</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#projects" data-i18n="nav.projects">Projects</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </div>
+            <p class="footer__copy">© <span id="currentYear"></span> Tấn Tỵ. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/particles.js" defer></script>
+    <script src="js/cursor.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/theme.js" defer></script>
+    <script src="js/i18n.js" defer></script>
+    <script src="js/animations.js" defer></script>
+    <script src="js/tilt.js" defer></script>
+    <script src="js/magnetic.js" defer></script>
+    <script src="js/skills.js" defer></script>
+    <script src="js/projects.js" defer></script>
+    <script src="js/timeline.js" defer></script>
+    <script src="js/stats.js" defer></script>
+    <script src="js/form.js" defer></script>
+    <script src="js/scroll-top.js" defer></script>
+    <script src="js/easter-eggs.js" defer></script>
+    <script src="js/app.js" defer></script>
+</body>
+</html>
