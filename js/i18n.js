@@ -11,7 +11,7 @@
     if (!langToggle || !langMenu) return;
 
     let translations = {};
-    let currentLang = localStorage.getItem('lang') || 'vi'; // Default Vietnamese
+    let currentLang = localStorage.getItem('lang') || 'en'; // Default English
 
     const LANG_LABELS = {
         'vi': 'VI',
